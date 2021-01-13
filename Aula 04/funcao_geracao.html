@@ -1,0 +1,17 @@
+<meta charset="UTF-8">
+<script>
+    function pulaLinha() {
+        document.write("<br>");
+    }
+
+    function mostra(frase) {
+        document.write(frase);
+    }
+
+    var anoInicial = 1500;
+    var anoAtual = 2021;
+    var numeroGeracoes = 0;
+
+    mostra("O número de gerações de brasileiros, contando desde 1528, é de: " + Math.round((anoAtual - anoInicial)/28) + " gerações.");
+    pulaLinha();
+</script>
